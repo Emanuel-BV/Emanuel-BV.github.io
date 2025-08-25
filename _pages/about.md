@@ -7,7 +7,7 @@ title: About
 
 permalink: /
 
-subtitle: Mechatronics Engineer | Automation & Prototyping
+subtitle: Mechatronics Engineer / Automation & Prototyping
 
 
 
