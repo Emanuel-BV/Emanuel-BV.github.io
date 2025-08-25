@@ -14,9 +14,9 @@ group :jekyll_plugins do
   gem "jekyll-paginate-v2"
   gem "jekyll-archives"
   gem "jekyll-toc"
-  gem "feedjira"
-  gem "httparty"
 end
 
 # Required for the GitHub Actions environment
 gem "webrick"
+gem "feedjira"
+gem "httparty"
