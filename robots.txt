@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jonaruthardt.github.io/sitemap.xml
