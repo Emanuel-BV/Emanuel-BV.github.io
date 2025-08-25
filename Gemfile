@@ -1,17 +1,20 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-# This specifies the Jekyll version.
-gem 'jekyll', '~> 4.3'
+# Lock Jekyll to a stable version to ensure compatibility
+gem "jekyll", "4.2.2"
 
-# These are the essential plugins for the theme to function.
+# Explicitly use the standard and reliable Sass converter
+gem "jekyll-sass-converter", "~> 2.1"
+
+# Essential plugins for the theme to function
 group :jekyll_plugins do
-  gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-seo-tag'
-  gem 'jekyll-paginate-v2'
-  gem 'jekyll-archives'
-  gem 'jekyll-toc'
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-seo-tag"
+  gem "jekyll-paginate-v2"
+  gem "jekyll-archives"
+  gem "jekyll-toc"
 end
 
-# This is needed for the GitHub Actions environment.
-gem 'webrick'
+# Required for the GitHub Actions environment
+gem "webrick"
