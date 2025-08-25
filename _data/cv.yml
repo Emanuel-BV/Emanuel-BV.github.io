@@ -2,84 +2,67 @@
   type: map
   contents:
     - name: Full Name
-      value: Jona Ruthardt
+      value: Emanuel Betancur Villamil
     - name: Occupation
-      value: PhD Student @ Fundamental AI Lab (UTN)
-    - name: Nationality
-      value: German
+      value: Mechatronics & Laser Engineer
+    - name: Location
+      value: Roselle, NJ
     - name: Languages
-      value: English, German
+      value: English (Intermediate), Spanish (Native)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD Student @ Fundamental AI Lab
-      institution: University of Technology Nuremberg, Nuremberg (DE)
-      year: 12/24-Present
+    - title: AS in Computer Science and Technology
+      institution: Union County College, Cranford, NJ
+      year: 2023-2025
       description:
-        - Researching Computer Vision, Multi-Modal Learning, and Efficient Deep Learning
-        - Teching in Multi-Modal Models Course
-    - title: MSc Artificial Intelligence
-      institution: University of Amsterdam, Amsterdam (NL)
-      year: 09/22-07/24
+        - Associate of Science degree program.
+    - title: Bachelor in Mechatronics Engineering
+      institution: EIA University, Envigado, Antioquia
+      year: 2015-2021
       description:
-        - Master of Science, Artificial Intelligence
-        - Courses in Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Information Retrieval, Philosophy
-    - title: IoT and AI Summer School
-      institution: Université Sorbonne Paris Nord, Paris (FR)
-      year: 07/23
-    - title: BSc Computer Science
-      institution: Baden-Wuerttemberg Cooperative State University, Stuttgart (DE)
-      year: 10/18-09/21
-      description:
-        - Bachelor of Science, Computer Science (IT-Automotive)
-        - Dual study degree in cooperation with Robert Bosch GmbH
-        - Courses in Computer Engineering, Programming, Software Engineering, Automotive Software Development
+        - Focus on Automation and Manufacturing.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Computer Vision Research Intern
-      institution: TNO - Intelligent Imaging Group, The Hague (NL)
-      year: 11/23-07/24
+    - title: Laser Engineer
+      institution: Beta Machine Solutions LLC, Roselle, NJ
+      year: 2023-Present
       description:
-        - Research into how large language models can be utilized for low-resource image classification
-        - Master’s thesis is part of internship at TNO’s Intelligent Imaging Group
-    - title: Research Assistant
-      institution: University of Amsterdam, Amsterdam (NL)
-      year: 04/23-07/24
+        - Partnered with aesthetic equipment sales companies to customize products by analyzing and adapting engineering to new technologies.
+        - Conducted quality assurance tests, analyzed laser spectra, and performed power/cooling evaluations on various laser systems (Diode, Nd-YAG, Er-YAG, CO2, IPL).
+        - Acted as a technical representative for repair and maintenance services across the US.
+    - title: Designer Engineer
+      institution: Improto 3D, Medellín, Antioquia
+      year: 2021-2022
       description:
-        - Investigation into exploiting generalization capabilities of large language models in vision domain
-        - Extracurricular research project supervised by Dr. Yuki Asano (QUVA Lab)
-    - title: Teaching Assistant
-      institution: University of Amsterdam, Amsterdam (NL)
-      year: 11/23-01/24
+        - Led a team of 4 to design, source, build, and calibrate the largest FDM 3D printer in Medellín.
+        - The project was completed in 3 months and the printer is currently operational, producing large-scale art for galleries.
+        - Supervised all technical aspects, ensuring the project met schedule and budget constraints.
+    - title: Prototyping Engineer
+      institution: Masmecanica, Medellín, Antioquia
+      year: 2020-2021
       description:
-        - Teaching and supervising tutorials as part of the UvA Deep Learning 1 course (master’s level)
-        - Contributing to and grading assignments and exams
-    - title: Data Analyst (Comercial Internal Auditing)
-      institution: Robert Bosch GmbH, Stuttgart (DE)
-      year: 10/21-08/23
+        - Designed replacement parts for industrial and food processing equipment using CNC, SLA, and laser cutting.
+        - Utilized 3D scanning to create and modify digital copies of industrial parts.
+        - Programmed PLCs for food processing machinery.
+    - title: Internship Engineer
+      institution: Grupo Excala - Compañia de Empaques, Medellín, Antioquia
+      year: 2019-2020
       description:
-        - Supported commercial audits from a data analytics perspective by extracting data from corporate IT systems (e.g., SAP, data lake) and preparing dashboards (Excel, PowerBI) containing important KPIs and visualizations
-        - Participated in Risk Management System audit and developed data analytics concept utilizing data from internal reporting tool
-        - Utilized (un)supervised ML methods to develop and enhance analyses (anomaly detection in transactions, clustering of process and document types, double posting detection) using Python libraries such as scikit-learn or Keras
-        - Developed approach that identified multiple compliance violations based on patterns in previous cases, and reporting framework for anti-money laundry that is actively used by legal division in the role of technical topic owner for fraud analytics
+        - Led the design and development of double-fold sewing equipment for the coffee industry.
+        - Implemented improvements to existing equipment like cone winders and spinning machines to increase efficiency.
 
-    - title: Dual Study Program Student
-      institution: Robert Bosch GmbH, Stuttgart (DE)
-      year: 10/18-09/21
-      description:
-        - Participated in a dual study degree program in the field of study of computer science (specialization IT-Automotive) 
-        - Conducted several multi-month internships and research projects (see "Projects" section) at different business units and departments with an emphasis on artificial intelligence, computer vision, and autonomous driving
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2020
+      items:
+        - Best robotic arm Scara - Awarded for creating an educational platform for a Digital Controller Design course.
 
-    - title: Working Student - Infrastructure and Digitalization
-      institution: bc-competence gmbh, Renningen (DE)
-      year: 06/19-02/21
-      description:
-        - Managed project to adopt mobile device management (MDM) for Apple devices
-        - Set up and maintained IT infrastructure (local network, active directory, SAP, etc.)
-        - Involvement in the application for public research grants for cloud and digitization projects
+
 
 # - title: Open Source Projects
 #   type: time_table
@@ -88,32 +71,6 @@
 #       year: 15-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2024
-      items:
-        - Accapted into MSc Honours Programme offered by the ELLIS Unit Amsterdam
-    - year: 2022
-      items: 
-        - Award for Best Bachelor's Thesis of the 2021 and 2022 academic year in the domain of Artificial Intelligence across all establishments and locations of the Baden-Wuerttemberg Cooperative State University.
-    - year: 2021
-      items: 
-        - Award for Best Practical Achievements during Studies
-    - year: 2018
-      items: 
-        - DPG Baccalaureate Prize for exceptional achievements in physics during high school
-
-- title: Past Grants and Funding
-  type: time_table
-  contents:
-    - year: 2024
-      items:
-        - ELLIS MSc Honors Mobility Grant (4,000€)
-    - year: 2023
-      items: 
-        - UvA MSc AI Conference Grant (500€)
-        - UvA University Fund Travel Grant (800€)
 
 # - title: Academic Interests
 #   type: nested_list
