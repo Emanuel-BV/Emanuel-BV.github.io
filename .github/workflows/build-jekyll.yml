@@ -1,0 +1,64 @@
+# Workflow name that will appear in the "Actions" tab
+name: Build and Deploy Jekyll Site
+
+# Defines when this workflow should run
+on:
+  # Runs on pushes targeting the 'master' branch
+  push:
+    branches: ["master"]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Permissions needed for the workflow to publish to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Defines the jobs to be executed
+jobs:
+  # There is only one job, named 'build'
+  build:
+    runs-on: ubuntu-latest # Will use an updated Linux server
+    steps:
+      # 1. Clones your repository to the virtual server
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. Sets up the Ruby environment and installs the plugins
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1.2' # The same version as in the Gemfile
+          bundler-cache: true # Installs plugins from the Gemfile and caches them to speed up future builds
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+        
+      # Installs the ImageMagick system dependency required by the jekyll-imagemagick plugin
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+        
+      # 3. Builds the website with Jekyll
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      # 4. Packages the built site files for deployment
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  # A second job, which only runs after 'build' is successful
+  deploy:
+    needs: build # Depends on the 'build' job
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }} # The URL of your site
+    steps:
+      # 5. Deploys (publishes) the packaged files to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
