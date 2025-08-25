@@ -1,18 +1,25 @@
+---
 layout: about
 title: About
 permalink: /
-subtitle: Mechatronics Engineer | Automation & Prototyping
+subtitle: PhD in Artificial Intelligence @ UTN
 
 profile:
-align: right
-image: profile.jpg
-image_circular: true # crops the image to make it circular
-more_info: >
-<p>Roselle, NJ</p>
+  align: right
+  image: emanuel-betancur.jpg
+  image_circular: true # crops the image to make it circular
+  more_info: >
+    <p>Nuremberg, Germany</p>
 
-news: true # includes a list of news items latest_posts: false # includes a list of the newest posts selected_papers: false # includes a list of papers marked as "selected={true}" social: true # includes social icons at the bottom of the page
-As a Mechatronics Engineer with a complementary Associate of Science in Computer Science, I specialize in transforming complex ideas into tangible realities. My experience spans from designing large-format 3D printers using C++ and developing robotic educational platforms in C# to the hands-on manufacturing of prototypes with CNC, SLA, and laser cutting equipment.
+news: true  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
+---
 
-I am proficient in using programming languages like Python for data analysis and G-code for fabrication. This unique blend of skills is showcased in my graduation project: an IoT weather station built for extreme conditions, which included developing a dashboard for real-time data interpretation.
+I am a first year PhD student in the [Fundamental AI (FunAI) Lab](https://fundamentalailab.github.io/) at the [University of Technology Nuremberg (UTN)](https://www.utn.de) under the supervision of [Prof. Yuki Asano](https://yukimasano.github.io/) and [Dr. Armand Joulin](https://www.linkedin.com/in/armand-joulin-0274254/).
+My research interests mainly revolve around **Computer Vision**, **Multi-Modal Learning**, and **Efficient Deep Learning**. I am excited about developing innovative AI solutions that transcend theoretical boundaries and address tangible real-world challenges.
 
-Beyond my technical work, I explore my creative side through photography and digital art, using tools like Illustrator and Photoshop to bring imaginative 3D printed projects to life. I’m always excited to connect and collaborate—don’t hesitate to get in touch if you’d like to join forces on exciting projects!
+Previously, I obtained my MSc in Artificial Intelligence from the University of Amsterdam. During my master's thesis, I got to work together with [Dr. Gertjan Burghouts](https://gertjanburghouts.github.io/) and [Prof. Serge Belongie](https://sergebelongie.github.io) as part of the [ELLIS MSc Honors Program](https://ivi.fnwi.uva.nl/ellis/funding-opportunities/).
+
+I’m always excited to connect and collaborate with fellow researchers and students - don’t hesitate to get in touch if you’d like to join forces on exciting AI projects!
