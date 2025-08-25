@@ -31,7 +31,10 @@ jobs:
         with:
           ruby-version: '3.1.2' # The same version as in the Gemfile
           bundler-cache: true # Installs plugins from the Gemfile and caches them to speed up future builds
-
+     
+      - name: Update Bundler and Dependencies
+        run: bundle update
+        
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
