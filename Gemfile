@@ -1,26 +1,17 @@
 source 'https://rubygems.org'
+
+# This specifies the Jekyll version.
+gem 'jekyll', '~> 4.3'
+
+# These are the essential plugins for the theme to function.
 group :jekyll_plugins do
-    gem 'classifier-reborn'
-    gem 'jekyll'
-    gem 'jekyll-archives'
-    gem 'jekyll-email-protect'
-    gem 'jekyll-feed'
-    gem 'jekyll-get-json'
-    gem 'jekyll-imagemagick'
-    gem 'jekyll-jupyter-notebook'
-    gem 'jekyll-link-attributes'
-    gem 'jekyll-minifier'
-    gem 'jekyll-paginate-v2'
-    gem 'jekyll-scholar'
-    gem 'jekyll-sitemap'
-    gem 'jekyll-toc'
-    gem 'jekyll-twitter-plugin'
-    gem 'jemoji'
-    gem 'mini_racer'
-    gem 'unicode_utils'
-    gem 'webrick'
+  gem 'jekyll-feed'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-paginate-v2'
+  gem 'jekyll-archives'
+  gem 'jekyll-toc'
 end
-group :other_plugins do
-    gem 'feedjira'
-    gem 'httparty'
-end
+
+# This is needed for the GitHub Actions environment.
+gem 'webrick'
