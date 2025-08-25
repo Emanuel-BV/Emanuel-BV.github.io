@@ -20,7 +20,6 @@ group :jekyll_plugins do
 # from Aestial/aestial.github.io
   gem 'jekyll-get-json'
   gem 'jekyll-imagemagick'
-  gem 'jekyll-jupyter-notebook'
   gem 'jekyll-link-attributes'
   gem 'jekyll-minifier'
   gem 'jekyll-regex-replace'
