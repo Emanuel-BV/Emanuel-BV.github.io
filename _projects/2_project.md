@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Test
+title: ShareLock
 description: Ultra-Lightweight CLIP-like Vision-Language Model
 img: assets/img/publication_preview/ShareLock.png
 importance: 1
