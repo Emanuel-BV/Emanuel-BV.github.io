@@ -17,19 +17,17 @@ nav_order: 4
 </div>
 {% endif %}
 
+
+
 ---
 
 {% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-  {% if site.data.repositories.github_users.size > 1 %}
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.html username=user %}
-  </div>
-{% endfor %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for user in site.data.repositories.github_users %}
+    <img src="https://github-profile-trophy.vercel.app/?username={{ user }}&theme={{ site.repo_trophies.theme_dark }}&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=6" alt="{{ user }}'s GitHub Trophies">
+  {% endfor %}
+</div>
 {% endif %}
-
   ---
 
 
