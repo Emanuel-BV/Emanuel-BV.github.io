@@ -20,11 +20,13 @@ nav_order: 4
 
 
 ---
+## https://github-profile-trophy.vercel.app/
+## https://trophygh.kolioaris.xyz/
 
 {% if site.repo_trophies.enabled %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
-    <img src="https://trophygh.kolioaris.xyz/?username={{ user }}&theme={{ site.repo_trophies.theme_dark }}&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=6" alt="{{ user }}'s GitHub Trophies">
+    <img src="https://github-profile-trophy.vercel.app/?username={{ user }}&theme={{ site.repo_trophies.theme_dark }}&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=6" alt="{{ user }}'s GitHub Trophies">
   {% endfor %}
 </div>
 {% endif %}
