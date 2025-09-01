@@ -20,8 +20,8 @@ nav_order: 4
 
 
 ---
-## https://github-profile-trophy.vercel.app/
-## https://trophygh.kolioaris.xyz/
+[link 1]: #  https://github-profile-trophy.vercel.app/
+[link 2]: #  https://trophygh.kolioaris.xyz/
 
 {% if site.repo_trophies.enabled %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
