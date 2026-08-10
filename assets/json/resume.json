@@ -24,12 +24,34 @@
   },
   "work": [
     {
+      "name": "United Window & Door Mfg., Inc.",
+      "position": "Manufacturing Systems Engineer",
+      "url": "",
+      "startDate": "2026-02-01",
+      "endDate": null,
+      "summary": "Optimize production systems, design automated workflows, and integrate advanced manufacturing technologies in Springfield, NJ.",
+      "highlights": [
+        "Focus on enhancing efficiency, quality, and manufacturing scalability."
+      ]
+    },
+    {
+      "name": "United Window & Door Mfg., Inc.",
+      "position": "Manufacturing Engineer",
+      "url": "",
+      "startDate": "2025-09-01",
+      "endDate": "2026-01-31",
+      "summary": "Led process improvement, production line balancing, and lean manufacturing initiatives in Springfield, MA.",
+      "highlights": [
+        "Streamlined fabrication and assembly processes to maximize operational efficiency."
+      ]
+    },
+    {
       "name": "Beta Machine Solutions LLC",
       "position": "Laser Engineer",
       "url": "",
       "startDate": "2023-02-01",
-      "endDate": null,
-      "summary": "Acted as a technical representative, offering repair and maintenance for aesthetic lasers and biomedical equipment across the US.",
+      "endDate": "2025-09-30",
+      "summary": "Acted as a technical representative, offering repair, maintenance, and customization for aesthetic lasers and biomedical equipment across the US in Roselle, NJ.",
       "highlights": [
         "Partnered with aesthetic equipment sales companies to customize products by analyzing and adapting engineering to new technologies.",
         "Conducted quality assurance tests, analyzed laser spectra, and performed power/cooling evaluations on various laser systems (Diode, Nd:YAG, Er:YAG, CO2, IPL)."
@@ -40,7 +62,7 @@
       "position": "Designer Engineer",
       "url": "",
       "startDate": "2021-07-01",
-      "endDate": "2022-01-01",
+      "endDate": "2022-01-31",
       "summary": "Led a team of 4 to design, manage, build, and calibrate the largest FDM printer in Medellín, Colombia. The project was completed in 3 months and the printer is currently used to produce sculptures and art for various galleries.",
       "highlights": [
         "Led the team and supervised all technical aspects.",
@@ -51,9 +73,9 @@
       "name": "Masmecanica",
       "position": "Prototyping Engineer",
       "url": "",
-      "startDate": "2020-08-01",
-      "endDate": "2021-05-01",
-      "summary": "Designed replacement parts for industrial and food processing equipment.",
+      "startDate": "2017-04-01",
+      "endDate": "2021-05-31",
+      "summary": "Designed replacement parts for industrial and food processing equipment using CAD and additive manufacturing in Medellín, Colombia.",
       "highlights": [
         "Created parts using CNC, SLA, and laser cutting.",
         "Utilized 3D scanning to create and modify digital copies of industrial parts.",
@@ -65,8 +87,8 @@
       "position": "Internship Engineer",
       "url": "",
       "startDate": "2019-12-01",
-      "endDate": "2020-07-01",
-      "summary": "Contributed to the company's production processes in the agave and fique industry.",
+      "endDate": "2020-07-31",
+      "summary": "Contributed to the company's production processes in the agave and fique industry in Medellín, Colombia.",
       "highlights": [
         "Led the design and development of double-fold sewing equipment for fique sacks in the coffee industry.",
         "Implemented improvements to existing equipment, such as cone winders and spinning machines."
