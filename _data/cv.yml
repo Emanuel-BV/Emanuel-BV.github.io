@@ -6,7 +6,7 @@
     - name: Occupation
       value: Mechatronics & Laser Engineer
     - name: Location
-      value: Roselle, NJ
+      value: Elizabeth, NJ
     - name: Languages
       value: English (Intermediate), Spanish (Native)
 
@@ -31,41 +31,112 @@
       institution: United Window & Door Mfg., Inc., Springfield, NJ
       year: 2026-Present
       description:
-        - Optimize production systems, design automated workflows, and integrate advanced manufacturing technologies.
-        - Enhance efficiency, quality, and manufacturing scalability.
+        - Promoted to lead the systems integration and modernization of the maintenance and glass departments, gaining deep technical insight into fenestration manufacturing, Erdman IG glass lines, and window assembly processes.
+        - Leveraged deep understanding of window manufacturing capabilities to ensure that all process optimizations and facility improvements align with product design parameters and production constraints.
+        - Architected and deployed an in-house Computerized Maintenance Management System (CMMS) with the IT team, integrating it with Fenevision software to streamline manufacturing data.
+        - Engineered a smart downtime tracking solution using floor-level QR codes and "5 Whys" root cause analysis, collaborating with cross-functional engineering teams to execute facility-wide optimizations.
     - title: Manufacturing Engineer
       institution: United Window & Door Mfg., Inc., Springfield, MA
       year: 2025-2026
       description:
-        - Led process improvement, production line balancing, and lean manufacturing initiatives.
-        - Streamlined fabrication and assembly processes to maximize operational efficiency.
+        - Spearheaded the 3D design and rapid prototyping of custom window hardware and accessories, utilizing additive manufacturing (3D printing) to test new concepts before full-scale production.
+        - Engineered CAD-based mechanical modifications and custom tooling for automated manufacturing equipment, seamlessly adapting legacy production lines to accommodate and assemble new window hardware prototypes.
+        - Performed complex mechatronic diagnostics, successfully resolving electronic control panel failures and industrial scanner bugs to reduce immediate downtime.
+        - Collaborated in large-scale machine recovery and new production line installations, gaining profound expertise in how modern window designs interact with automated fabrication equipment.
     - title: Laser Engineer
       institution: Beta Machine Solutions LLC, Roselle, NJ
       year: 2023-2025
       description:
-        - Partnered with aesthetic equipment sales companies to customize products by analyzing and adapting engineering to new technologies.
-        - Conducted quality assurance tests, analyzed laser spectra, and performed power/cooling evaluations on various laser systems (Diode, Nd-YAG, Er-YAG, CO2, IPL).
-        - Acted as a technical representative for repair and maintenance services across the US.
+        - Leveraged advanced machine design expertise to serve a dual role as a Field Service Engineer and Design Engineer for medical-aesthetic laser equipment supporting companies like Luna Medical Technology, Supramedical, and Medexx.
+        - Customized and engineered CAD designs for aesthetic and biomedical laser devices manufactured in China, successfully modifying original schematics and prototyping mechanical adaptations to meet specific US sales requirements and client needs.
+        - Conducted advanced diagnostics, including laser spectra analysis and power/cooling evaluations, on a wide range of laser and IPL systems (Diode 810nm, 755nm, Nd:YAG, Er:YAG, CO2).
+        - Integrated new technologies into existing architectures and provided expert on-site maintenance, repair, and calibration services across the United States.
     - title: Designer Engineer
       institution: Improto 3D, Medellín, Antioquia
       year: 2021-2022
       description:
-        - Led a team of 4 to design, source, build, and calibrate the largest FDM 3D printer in Medellín.
-        - The project was completed in 3 months and the printer is currently operational, producing large-scale art for galleries.
-        - Supervised all technical aspects, ensuring the project met schedule and budget constraints.
+        - Pioneered a groundbreaking project to develop the largest FDM 3D printer in Medellín by conducting initial market research, defining potential client applications, and establishing project feasibility.
+        - Assembled and directed a specialized cross-functional team of 4 professionals, serving as the Lead Engineer in charge of the machine's mechanical CAD design and electronic architecture.
+        - Managed the end-to-end product development lifecycle, including material sourcing, structural building, and meticulous hardware calibration.
+        - Successfully completed the machine design and build within a strict 6-month schedule and budget; the custom printer is currently active and utilized to manufacture large-scale sculptures and art for various galleries.
     - title: Prototyping Engineer
       institution: Masmecanica, Medellín, Antioquia
       year: 2017-2021
       description:
-        - Designed replacement parts for industrial and food processing equipment using CNC, SLA, and laser cutting.
-        - Utilized 3D scanning to create and modify digital copies of industrial parts.
-        - Programmed PLCs for food processing machinery.
+        - Progressed rapidly within the company during my engineering studies, starting as a Laser Cutting Assistant and advancing to a core Design Engineer role.
+        - Collaborated closely with the Chief Mechanic and engineering team to invent, design, and prototype specialized industrial machinery using CAD software and rapid manufacturing techniques.
+        - Led the mechanical CAD design and prototyping of highly customized equipment, including automated arepa forming machines, natural tea dehydration ovens, and automatic flower packaging systems.
+        - Scanned existing industrial parts to create digital reverse-engineered CAD copies, modifying them for performance improvements and manufacturing replacement components via CNC, SLA 3D printing, and laser cutting.
+        - Programmed PLCs and integrated mechatronic systems for specialized food processing equipment.
     - title: Internship Engineer
       institution: Grupo Excala - Compañia de Empaques, Medellín, Antioquia
       year: 2019-2020
       description:
-        - Led the design and development of double-fold sewing equipment for the coffee industry.
-        - Implemented improvements to existing equipment like cone winders and spinning machines to increase efficiency.
+        - Worked directly within the Innovation Office to design, modify, and improve critical machine components using CAD, directly supporting the maintenance and production departments.
+        - Led the mechanical design and prototyping of a custom double-fold sewing equipment attachment for fique sacks utilized in the coffee industry.
+        - Engineered and implemented strategic design improvements to existing legacy equipment, including cone winders and spinning machines, successfully enabling operators to load multiple cones simultaneously.
+        - Designed and adapted custom assembly guides, demonstrating a strong ability to invent practical hardware solutions that optimize existing manufacturing processes.
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming & Software
+      items:
+        - Python
+        - C/C++
+        - C#
+        - Java
+        - Visual Basic
+        - MATLAB
+        - LabView
+        - Microsoft Excel
+    - title: AI Tools & Assistants
+      items:
+        - Gemini
+        - Jules
+        - Antigravity
+    - title: Automation & Electrical Systems
+      items:
+        - Rockwell Studio 5000
+        - PLC Programming
+        - Pneumatic systems
+        - Electrical automation system implementation
+        - Electrical systems
+        - Electrical schematics reading
+        - Sensors
+        - Robotics
+        - Industrial controls
+        - Microcontroller circuit design
+        - Digital circuit design
+        - Embedded software
+    - title: Design & Manufacturing
+      items:
+        - Autodesk Fusion
+        - Autodesk Inventor
+        - CAD Design
+        - Blender
+        - 3D Printing
+        - Manufacturing
+        - Fabrication
+        - Mechanical knowledge
+        - Mechanical design
+    - title: Engineering Methodologies
+      items:
+        - Project documentation
+        - Engineering validation
+        - Analytical thinking
+        - Functional testing
+        - System design
+        - System architecture
+    - title: Creative
+      items:
+        - Photography
+        - Image Processing for Texturing and Rendering
+        - Blender rendering
+        - Autodesk Inventor rendering
+        - Autodesk Fusion rendering
+        - Adobe Photoshop
+        - Adobe Lightroom
 
 - title: Honors and Awards
   type: time_table
