@@ -27,9 +27,21 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Manufacturing Systems Engineer
+      institution: United Window & Door Mfg., Inc., Springfield, NJ
+      year: 2026-Present
+      description:
+        - Optimize production systems, design automated workflows, and integrate advanced manufacturing technologies.
+        - Enhance efficiency, quality, and manufacturing scalability.
+    - title: Manufacturing Engineer
+      institution: United Window & Door Mfg., Inc., Springfield, MA
+      year: 2025-2026
+      description:
+        - Led process improvement, production line balancing, and lean manufacturing initiatives.
+        - Streamlined fabrication and assembly processes to maximize operational efficiency.
     - title: Laser Engineer
       institution: Beta Machine Solutions LLC, Roselle, NJ
-      year: 2023-Present
+      year: 2023-2025
       description:
         - Partnered with aesthetic equipment sales companies to customize products by analyzing and adapting engineering to new technologies.
         - Conducted quality assurance tests, analyzed laser spectra, and performed power/cooling evaluations on various laser systems (Diode, Nd-YAG, Er-YAG, CO2, IPL).
@@ -43,7 +55,7 @@
         - Supervised all technical aspects, ensuring the project met schedule and budget constraints.
     - title: Prototyping Engineer
       institution: Masmecanica, Medellín, Antioquia
-      year: 2020-2021
+      year: 2017-2021
       description:
         - Designed replacement parts for industrial and food processing equipment using CNC, SLA, and laser cutting.
         - Utilized 3D scanning to create and modify digital copies of industrial parts.
@@ -61,30 +73,3 @@
     - year: 2020
       items:
         - Best robotic arm Scara - Awarded for creating an educational platform for a Digital Controller Design course.
-
-
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 15-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
