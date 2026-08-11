@@ -1,6 +1,15 @@
 <div class="repo p-2 text-center">
   <a href="https://github.com/{{ include.username }}">
-    <img class="repo-img-light w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true">
-    <img class="repo-img-dark w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true">
+    <!-- Original links kept for history -->
+    <!-- <img class="repo-img-light w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true"> -->
+    <!-- <img class="repo-img-dark w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true"> -->
+
+    <!-- Alternative 1: sigma-five (Currently throwing PAT_1 error) -->
+    <!-- <img class="repo-img-light w-100" alt="{{ include.username }}" src="https://github-readme-stats-sigma-five.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true"> -->
+    <!-- <img class="repo-img-dark w-100" alt="{{ include.username }}" src="https://github-readme-stats-sigma-five.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true"> -->
+
+    <!-- Alternative 2: github-profile-summary-cards (Currently working) -->
+    <img class="repo-img-light w-100" alt="{{ include.username }}" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={{ include.username }}&theme={{ site.repo_theme_light }}">
+    <img class="repo-img-dark w-100" alt="{{ include.username }}" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={{ include.username }}&theme={{ site.repo_theme_dark }}">
   </a>
 </div>
