@@ -18,3 +18,8 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/solid",
   "font-awesome/regular"
 ;
+
+// Tus estilos personalizados
+.text {
+    white-space: pre-wrap;
+}
