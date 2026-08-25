@@ -51,10 +51,7 @@ To handle the structural integrity of these giant prints without excessive weigh
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <video width="100%" autoplay loop muted playsinline class="img-fluid rounded z-depth-1">
-            <source src="{{ '/assets/video/projects/sculpture-production/vase-printing.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        {% include video.html path="assets/video/projects/sculpture-production/vase-printing.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true %}
     </div>
 </div>
 
