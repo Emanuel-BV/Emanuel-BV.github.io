@@ -89,12 +89,12 @@ let setGiscusTheme = (theme) => {
 
 
 let addMermaidZoom = (records, observer) => {
-  var svgs = d3.selectAll(".mermaid svg");
+  const svgs = d3.selectAll(".mermaid svg");
   svgs.each(function () {
-    var svg = d3.select(this);
+    const svg = d3.select(this);
     svg.html("<g>" + svg.html() + "</g>");
-    var inner = svg.select("g");
-    var zoom = d3.zoom().on("zoom", function (event) {
+    const inner = svg.select("g");
+    const zoom = d3.zoom().on("zoom", function (event) {
       inner.attr("transform", event.transform);
     });
     svg.call(zoom);
@@ -123,7 +123,7 @@ let setMermaidTheme = (theme) => {
 
   const observable = document.querySelector(".mermaid svg");
   if (observable !== null) {
-    var observer = new MutationObserver(addMermaidZoom);
+    const observer = new MutationObserver(addMermaidZoom);
     const observerOptions = { childList: true };
     observer.observe(observable, observerOptions);
   }
