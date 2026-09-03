@@ -12,8 +12,8 @@ $(document).ready(function() {
 
   // bootstrap-toc
   if($('#toc-sidebar').length){
-    var navSelector = "#toc-sidebar";
-    var $myNav = $(navSelector);
+    const navSelector = "#toc-sidebar";
+    const $myNav = $(navSelector);
     Toc.init($myNav);
     $("body").scrollspy({
       target: navSelector,
