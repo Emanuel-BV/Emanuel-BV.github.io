@@ -231,23 +231,24 @@
   "references": [],
   "projects": [
     {
-      "name": "Cambridge Pavingstones PBR Texture Pipeline & Bilingual Builders' Manual",
-      "summary": "Built a semi-automatic 3-camera capture rig, Python/Photoshop color-compensation pipeline, and published 22-page bilingual CAD Builders' Manual.",
+      "name": "Zero-Budget Multi-Facility Compressed Air Audit & Noise Reduction",
+      "summary": "Empirical 110-130 PSI duty-cycle audit across 3 facilities uncovering 500 CFM / $18k-$24k/yr in air waste, repairing 27+ leaks and cutting ambient noise by ~7-8 dB for OSHA compliance.",
+      "startDate": "2026-06-01",
+      "url": "https://emanuel-bv.github.io/projects/production-engineering/compressed-air-audit-and-noise-reduction/"
+    },
+    {
+      "name": "Cambridge Pavingstones 3-Camera PBR Pipeline & LEGO-Style Builders' Manual",
+      "summary": "Compressed a 3-month studio shoot to 3.5 weeks, batch-exported PBR textures in 1 week with Python & Photoshop, and co-authored a published 22-page bilingual Builders' Manual.",
       "startDate": "2025-02-01",
       "endDate": "2025-04-30",
       "url": "https://emanuel-bv.github.io/projects/engineering-software-utilities/cambridge-pbr-pipeline/"
     },
     {
-      "name": "In-House Bilingual CMMS & Shop-Floor Poka-Yoke Web Suite",
-      "summary": "Architected relational CMMS piloted in Building 21 with QR downtime tracking, Fenevision ERP integration, and interactive Low-E / 5S web tools.",
-      "startDate": "2025-10-01",
-      "url": "https://emanuel-bv.github.io/projects/software-systems/bilingual-cmms-and-poka-yoke-tools/"
-    },
-    {
-      "name": "Embedded CO2 Carboxytherapy Prototype (ESP32-S3 + LVGL)",
-      "summary": "Closed-loop pneumatic control hardware R&D integrating ESP32-S3, Waveshare 5-inch touch HMI, Airtac solenoid valves, and pressure sensors.",
-      "startDate": "2026-04-01",
-      "url": "https://emanuel-bv.github.io/projects/custom-machinery-design/optical-laser-systems-and-co2-prototype/"
+      "name": "Fault-Redundant High-Mountain IoT Weather Station (Open-Source)",
+      "summary": "Open-source Adafruit Feather M0, GPRS/MQTT, dual-battery and IP68/IP67 weather station validated at 2,911 m.a.s.l. and -5C with zero data loss.",
+      "startDate": "2020-06-01",
+      "endDate": "2021-06-01",
+      "url": "https://emanuel-bv.github.io/projects/custom-machinery-design/high-mountain-iot-weather-station/"
     }
   ]
 }

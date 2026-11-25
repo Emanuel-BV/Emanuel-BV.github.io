@@ -1,10 +1,13 @@
 ---
 layout: page
 title: "Sculpture Production Line: Scaling with Large-Format 3D Printing"
-description: "By integrating large-format 3D printing and modernizing a traditional workshop, a complete workflow was engineered for the design, quotation, manufacturing, and painting of batch sculptures."
+description: "By integrating a custom 1 m³ large-format 3D printer and modernizing a traditional workshop, delivery lead times dropped from 1–2 months down to 1–3 weeks."
+date: 2022-01-31
 img: assets/img/projects/sculpture-production/rabbit.jpg
 importance: 1
 category: Production Engineering
+tags: [Production Engineering, CAD & 3D Printing, Hardware Design, Workflow Automation]
+published: true
 ---
 
 In 2021, a traditional sculpture workshop faced a significant bottleneck when tasked with producing large, lightweight props for theatrical and audiovisual productions. Standard materials like ceramics, clay, or wood were either too fragile or too heavy, heavily inflating transport and production costs. The ultimate goal was to manufacture durable, lightweight props that a warehouse could easily rent out for events and audiovisual productions across the city.
