@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: Mechatronics & Systems Engineer | End-to-End Automation, Manufacturing & Prototyping
+subtitle: Mechatronics, Automation & Systems Engineer | Controls, Plant Reliability, Optical Systems & Prototyping
 
 profile:
   align: right
   image: emanuel-betancur.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Roselle, NJ, USA</p>
+    <p>Elizabeth, NJ (Greater NYC / Tri-State Area)</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -17,27 +17,24 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-As a bilingual Mechatronics Engineer with an AS in Computer Science, I specialize in the complete product and system lifecycle—from initial CAD conception to factory-floor manufacturing and field service integration. By bridging the gap between digital software architecture and physical machinery, I engineer robust automated environments and responsive prototypes optimized for real-world manufacturability and maximum uptime.
+I am a bilingual (English/Spanish) **Mechatronics Engineer (B.S.)** with an **Associate of Science in Computer Science**, bridging the gap between office-level software architecture and hands-on factory, lab, and field execution. My career is built on designing solutions, learning new technical stacks fast, executing on the floor, and training engineering and operational teams to sustain results.
 
-#### Engineering Design & Prototyping
+#### Industrial Automation, Controls & Plant Reliability
 
-* Lead the end-to-end mechanical CAD design, photorealistic rendering, and electronic architecture of custom automated equipment and large-format FDM 3D printers using tools like Fusion 360, AutoCAD, and Inventor.
-* Reverse-engineer and rapidly prototype industrial parts utilizing CNC, SLA, and laser cutting to seamlessly transition concepts into functional components.
-* Program custom embedded systems, IoT platforms, and industrial PLCs (including Siemens TIA Portal and Allen-Bradley) in C/C++, Python, and C# to drive automation in extreme environments and specialized food processing equipment.
-* Design advanced embedded hardware systems using ESP32 microcontrollers and edge machine learning frameworks for seamless optical sensor integration.
+* Support and optimize high-volume automated manufacturing equipment powered by **Allen-Bradley/Rockwell PLCs**, **FactoryTalk HMIs**, **Siemens (TIA Portal & Sinumerik 828D)**, **B&R Industrial Automation**, and **TRIO Motion Controllers (Motion Perfect)**.
+* Lead high-ROI reliability and utility engineering initiatives—including compressed air energy audits across three facilities ($18k–$24k+/year in identified energy savings), industrial RO water & Argon utilities stabilization, preventive electrical cabinet audits, and PTFE material lifespan optimization (+166%).
+* Restore legacy machinery to production and deploy unattended **RPA** (Power Automate) and **ZPL II** barcode/ERP integration workflows to eliminate unplanned downtime.
 
-#### Manufacturing Operations & Systems Integration
+#### Software Systems, CMMS & Engineering Pipelines
 
-* Architect and deploy comprehensive Computerized Maintenance Management Systems (CMMS) natively integrated with production software to centralize manufacturing data.
-* Develop custom HTML, CSS, and JavaScript tools to build dashboard interfaces and asset label generators for factory standard operating procedures (SOPs).
-* Engineer smart downtime tracking solutions utilizing floor-level QR codes and "5 Whys" root cause analysis to shift facilities toward predictive maintenance.
-* Diagnose and resolve complex mechatronic failures on legacy and modern production lines, optimizing industrial scanners and electronic control panels to minimize immediate facility downtime.
+* Architect and deploy in-house bilingual **Computerized Maintenance Management Systems (CMMS)** integrated with ERP/manufacturing platforms, QR-code downtime tracking, and "5 Whys" root cause analysis.
+* Build custom **HTML5/CSS3/JavaScript** shop-floor Poka-Yoke web tools, interactive Low-E optical coating visualizers, 5S rack label generators, and bilingual technical SOPs.
+* Engineer automated **Python** and imaging pipelines—such as a 3-camera semi-automatic capture rig and Photoshop/Python PBR texture database for building-materials product libraries.
 
-#### Field Service & Technical Leadership
+#### Optical/Laser Systems, Robotics & Embedded Prototyping
 
-* Serve as a technical bridge between engineering and manufacturing, leading cross-functional teams to execute facility-wide process optimizations and large-scale machine recovery installations.
-* Execute advanced on-site diagnostics, laser spectra analysis, and structural calibrations for biomedical and aesthetic laser systems (Nd:YAG, CO2, Diode, Er:YAG) across the United States.
-* Break down complex automated frameworks to empower and teach operators, cultivating a collaborative environment driven by shared technical efficiency.
-* Automate complex workflows, including bulk image processing for CAD renders, generating texture libraries, and the creation of standardized technical manuals and SOPs.
+* Over 2.5 years of nationwide field and design engineering on high-power medical-aesthetic laser platforms (**Diode 810nm/755nm, Nd:YAG, Er:YAG, CO2, IPL**), executing optical spectra analysis, power-electronics repair, and hydraulic/Peltier-TEC thermal diagnostics.
+* Execute commercial warehouse deployments of autonomous industrial cleaning robots (**Pudu Robotics AMRs**), including commissioning, sensor calibration, and fleet maintenance.
+* Design end-to-end electromechanical hardware—from a 1 m³ large-format industrial 3D printer (Improto 3D) and ISO food/coffee machinery to embedded **ESP32-S3 / LVGL** closed-loop pneumatic prototypes and fault-redundant IoT telemetry systems.
 
-Whether I am customizing biomedical lasers, developing remote weather stations, or modernizing automated fenestration lines, I ensure every project is efficient, scalable, and built for purpose. I am always eager to connect and collaborate on innovative technical challenges—don’t hesitate to reach out if you’d like to join forces.
+I am always open to connecting with engineering teams across **Automation, Controls, Plant/Facilities Reliability, Photonics/Optics, MedTech, and Robotics**—feel free to reach out via email or LinkedIn.

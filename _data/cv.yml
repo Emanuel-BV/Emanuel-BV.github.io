@@ -4,143 +4,117 @@
     - name: Full Name
       value: Emanuel Betancur Villamil
     - name: Occupation
-      value: Mechatronics & Laser Engineer
+      value: Mechatronics, Automation & Manufacturing Systems Engineer
     - name: Location
-      value: Elizabeth, NJ
+      value: Elizabeth, NJ (Greater NYC / Tri-State Area)
     - name: Languages
-      value: English (Intermediate), Spanish (Native)
+      value: English (Fluent), Spanish (Native)
+    - name: Work Authorization
+      value: US Permanent Resident (Authorized to work without sponsorship)
 
 - title: Education
   type: time_table
   contents:
-    - title: AS in Computer Science and Technology
+    - title: Associate of Science (A.S.) in Computer Science and Technology
       institution: Union County College, Cranford, NJ
       year: 2023-2025
       description:
-        - Associate of Science degree program.
-    - title: Bachelor in Mechatronics Engineering
-      institution: EIA University, Envigado, Antioquia
+        - Software engineering, data structures, databases, and systems programming.
+    - title: Bachelor of Science (B.S.) in Mechatronics Engineering
+      institution: EIA University, Envigado, Colombia
       year: 2015-2021
       description:
-        - Focus on Automation and Manufacturing.
+        - Focus on Automation, Controls, Robotics, and Manufacturing.
 
 - title: Experience
   type: time_table
   contents:
     - title: Manufacturing Systems Engineer
+      institution: United Window & Door Mfg., Inc., Springfield & Wayne, NJ
+      year: Feb 2026-Present
+      description:
+        - Primary on-site systems engineer supporting automated Erdman/Billco insulated glass lines (Allen-Bradley/Rockwell PLCs & FactoryTalk HMIs), stabilizing KineticoPRO RO water, Grundfos pumping, and 90-95 PSI Argon utilities.
+        - Developed an empirical compressed air energy audit across 3 plants (110-130 PSI, 45-110 kW compressors), quantifying 88-264 CFM losses per building and identifying $18,200-$24,200+/year in energy savings.
+        - Architected and piloted an in-house bilingual CMMS ("United Maintenance Way") in Building 21 integrated with Fenevision ERP, QR-code downtime tracking, 5 Whys RCA, and shop-floor Poka-Yoke web tools (Low-E visualizer, 5S rack labels).
+        - Audited 14 industrial electrical control cabinets in Building 21 and trained peer engineers in Wayne to standardize inspections, bilingual SOPs, and optical light-curtain safety compliance.
+    - title: Manufacturing Engineer (Promoted to Manufacturing Systems Engineer)
       institution: United Window & Door Mfg., Inc., Springfield, NJ
-      year: 2026-Present
+      year: Sep 2025-Jan 2026
       description:
-        - Promoted to lead the systems integration and modernization of the maintenance and glass departments, gaining deep technical insight into fenestration manufacturing, Erdman IG glass lines, and window assembly processes.
-        - Leveraged deep understanding of window manufacturing capabilities to ensure that all process optimizations and facility improvements align with product design parameters and production constraints.
-        - Architected and deployed an in-house Computerized Maintenance Management System (CMMS) with the IT team, integrating it with Fenevision software to streamline manufacturing data.
-        - Engineered a smart downtime tracking solution using floor-level QR codes and "5 Whys" root cause analysis, collaborating with cross-functional engineering teams to execute facility-wide optimizations.
-    - title: Manufacturing Engineer
-      institution: United Window & Door Mfg., Inc., Springfield, MA
-      year: 2025-2026
-      description:
-        - Spearheaded the 3D design and rapid prototyping of custom window hardware and accessories, utilizing additive manufacturing (3D printing) to test new concepts before full-scale production.
-        - Engineered CAD-based mechanical modifications and custom tooling for automated manufacturing equipment, seamlessly adapting legacy production lines to accommodate and assemble new window hardware prototypes.
-        - Performed complex mechatronic diagnostics, successfully resolving electronic control panel failures and industrial scanner bugs to reduce immediate downtime.
-        - Collaborated in large-scale machine recovery and new production line installations, gaining profound expertise in how modern window designs interact with automated fabrication equipment.
-    - title: Laser Engineer
+        - Diagnosed and replaced a failing TRIO MC206 motion controller (Motion Perfect 2), eliminating 2-4 weekly line stops and achieving 0 hours of unplanned downtime for 30+ consecutive days.
+        - Restored an automated Urban 4590 saw after 5 years of inactivity, configuring B&R firewall/Fenevision ERP cut-list integration (18 units/shift) and unattended Power Automate RPA file archiving (120-file rolling buffer).
+        - Calibrated Siemens Sinumerik 828D CNC systems (< 1/16" tolerance), optimized multi-track CNC tool paths, re-engineered Zebra ZPL II labels, benchmarked PVC ESD mitigation (Simco-Ion/Keyence/Silvent), and led a PTFE tape study (+166% lifespan, -51% shift cost).
+    - title: Optical/Laser & Field Systems Engineer
       institution: Beta Machine Solutions LLC, Roselle, NJ
-      year: 2023-2025
+      year: Feb 2023-Present (Part-Time from Oct 2025)
       description:
-        - Leveraged advanced machine design expertise to serve a dual role as a Field Service Engineer and Design Engineer for medical-aesthetic laser equipment supporting companies like Luna Medical Technology, Supramedical, and Medexx.
-        - Customized and engineered CAD designs for aesthetic and biomedical laser devices manufactured in China, successfully modifying original schematics and prototyping mechanical adaptations to meet specific US sales requirements and client needs.
-        - Conducted advanced diagnostics, including laser spectra analysis and power/cooling evaluations, on a wide range of laser and IPL systems (Diode 810nm, 755nm, Nd:YAG, Er:YAG, CO2).
-        - Integrated new technologies into existing architectures and provided expert on-site maintenance, repair, and calibration services across the United States.
-    - title: Designer Engineer
-      institution: Improto 3D, Medellín, Antioquia
-      year: 2021-2022
+        - Conducted component-level electrical, optical spectra, high-power supply, and hydraulic/Peltier-TEC thermal diagnostics on medical-aesthetic laser platforms (Diode 810nm/755nm, Nd:YAG, Er:YAG, CO2, IPL, RF, HIFU) across NJ, NY, FL, and MI.
+        - Engineered CAD mechanical adaptations and custom hardware integrations to meet US compliance and reliability requirements for clients including Luna Medical Technology, Supramedical, and Medexx.
+        - Executed 2 commercial warehouse deployment contracts for Pudu Robotics industrial autonomous cleaning robots (AMRs), managing commissioning, sensor calibration, and fluid-system maintenance.
+    - title: Contract Engineering & Technical Documentation Specialist
+      institution: Cambridge Pavingstones with ArmorTec, NJ
+      year: Feb 2025-Apr 2025
       description:
-        - Pioneered a groundbreaking project to develop the largest FDM 3D printer in Medellín by conducting initial market research, defining potential client applications, and establishing project feasibility.
-        - Assembled and directed a specialized cross-functional team of 4 professionals, serving as the Lead Engineer in charge of the machine's mechanical CAD design and electronic architecture.
-        - Managed the end-to-end product development lifecycle, including material sourcing, structural building, and meticulous hardware calibration.
-        - Successfully completed the machine design and build within a strict 6-month schedule and budget; the custom printer is currently active and utilized to manufacture large-scale sculptures and art for various galleries.
-    - title: Prototyping Engineer
-      institution: Masmecanica, Medellín, Antioquia
-      year: 2017-2021
+        - Built and operated a semi-automatic 3-camera imaging setup capturing 3-5 photos per product across the full catalog to construct a standardized PNG/PBR bitmap texture database.
+        - Automated color compensation and multi-format exports using Python and Adobe Photoshop for marketing and architectural online repositories.
+        - Co-designed a new outdoor kitchen product (Omega Smooth Wall Kitchen Kit) and co-authored its published 22-page bilingual Builders' Manual and assembly SOP.
+    - title: Lead Design & Controls Engineer (6-Month Project Contract)
+      institution: Improto 3D, Medellín, Colombia
+      year: Jul 2021-Jan 2022
       description:
-        - Progressed rapidly within the company during my engineering studies, starting as a Laser Cutting Assistant and advancing to a core Design Engineer role.
-        - Collaborated closely with the Chief Mechanic and engineering team to invent, design, and prototype specialized industrial machinery using CAD software and rapid manufacturing techniques.
-        - Led the mechanical CAD design and prototyping of highly customized equipment, including automated arepa forming machines, natural tea dehydration ovens, and automatic flower packaging systems.
-        - Scanned existing industrial parts to create digital reverse-engineered CAD copies, modifying them for performance improvements and manufacturing replacement components via CNC, SLA 3D printing, and laser cutting.
-        - Programmed PLCs and integrated mechatronic systems for specialized food processing equipment.
-    - title: Internship Engineer
-      institution: Grupo Excala - Compañia de Empaques, Medellín, Antioquia
-      year: 2019-2020
+        - Directed a 4-person multidisciplinary team to design, wire, build, and commission a custom 1 m³ large-format industrial FDM 3D printer within a strict 6-month schedule and budget.
+        - Owned electronic/control architecture (Marlin-to-Klipper migration, UPS power backup, filament-tension sensing, thermal calibration) and production workflow—cutting sculpture delivery lead times from 1-2 months to 1-3 weeks.
+    - title: Prototyping & Automation Engineer
+      institution: Masmecanica, Medellín, Colombia
+      year: Apr 2017-May 2021
       description:
-        - Worked directly within the Innovation Office to design, modify, and improve critical machine components using CAD, directly supporting the maintenance and production departments.
-        - Led the mechanical design and prototyping of a custom double-fold sewing equipment attachment for fique sacks utilized in the coffee industry.
-        - Engineered and implemented strategic design improvements to existing legacy equipment, including cone winders and spinning machines, successfully enabling operators to load multiple cones simultaneously.
-        - Designed and adapted custom assembly guides, demonstrating a strong ability to invent practical hardware solutions that optimize existing manufacturing processes.
+        - Progressed from Laser Cutting Assistant to core Design & Prototyping Engineer while completing Mechatronics Engineering studies.
+        - Programmed Siemens PLCs (LOGO! and S7-1200 in TIA Portal) and integrated mechatronic controls for ISO-compliant food processing machinery.
+        - Engineered and thermally calibrated a continuous conveyor-based herb/tea dehydration line across 10+ days of live testing to parameterize 15+ thermal recipes.
+    - title: Automation & Innovation Intern
+      institution: Grupo Excala - Compañía de Empaques, Medellín, Colombia
+      year: Dec 2019-Jul 2020
+      description:
+        - Engineered electromechanical actuators, base conveyor systems, and a custom double-fold sewing attachment for fique sacks in the coffee and cocoa industries.
+        - Replaced high-maintenance pneumatic assemblies with reliable mechanical tensioners on legacy spinning and cone-winding machinery.
 
 - title: Skills
   type: nested_list
   contents:
-    - title: Programming & Software
+    - title: Industrial Controls, Motion & PLCs
       items:
-        - Python
-        - C/C++
-        - C#
-        - Java
-        - Visual Basic
-        - MATLAB
-        - LabView
-        - Microsoft Excel
-    - title: AI Tools & Assistants
+        - Allen-Bradley / Rockwell Automation (Live Ladder Diagnostics)
+        - FactoryTalk View HMI
+        - Siemens TIA Portal (LOGO!, S7-1200)
+        - Siemens Sinumerik 828D (CNC Metrology & G-Code)
+        - TRIO Motion Controllers (Motion Perfect 2)
+        - B&R Industrial Automation
+        - Electrical Control Panel Diagnostics & Schematics
+        - Pudu Robotics AMRs (Warehouse Commissioning)
+    - title: Plant Reliability, Utilities & Optical Systems
       items:
-        - Gemini
-        - Jules
-        - Antigravity
-    - title: Automation & Electrical Systems
+        - Compressed Air Energy Audits (CFM/kW)
+        - Process Water & RO Systems (KineticoPRO, Grundfos)
+        - High-Power Laser Systems (Diode, Nd:YAG, Er:YAG, CO2, IPL)
+        - Thermal & Peltier/TEC Diagnostics
+        - ESD Mitigation (Simco-Ion, Keyence, Silvent)
+        - CMMS Architecture, Root Cause Analysis (5 Whys), Bilingual SOPs
+    - title: Software, Scripting & Automation
       items:
-        - Rockwell Studio 5000
-        - PLC Programming
-        - Pneumatic systems
-        - Electrical automation system implementation
-        - Electrical systems
-        - Electrical schematics reading
-        - Sensors
-        - Robotics
-        - Industrial controls
-        - Microcontroller circuit design
-        - Digital circuit design
-        - Embedded software
-    - title: Design & Manufacturing
+        - Python, C#, C/C++, SQL, Power BI
+        - HTML5, CSS3, JavaScript (Shop-Floor Web Tools)
+        - ERP & Barcode Integration (Fenevision, Zebra ZPL II)
+        - Microsoft Power Automate (RPA), Excel, Visio
+        - Embedded Systems (ESP32-S3, LVGL, Klipper, Home Assistant, Linux/Fedora)
+    - title: Mechanical CAD & Prototyping
       items:
-        - Autodesk Fusion
-        - Autodesk Inventor
-        - CAD Design
-        - Blender
-        - 3D Printing
-        - Manufacturing
-        - Fabrication
-        - Mechanical knowledge
-        - Mechanical design
-    - title: Engineering Methodologies
-      items:
-        - Project documentation
-        - Engineering validation
-        - Analytical thinking
-        - Functional testing
-        - System design
-        - System architecture
-    - title: Creative
-      items:
-        - Photography
-        - Image Processing for Texturing and Rendering
-        - Blender rendering
-        - Autodesk Inventor rendering
-        - Autodesk Fusion rendering
-        - Adobe Photoshop
-        - Adobe Lightroom
+        - Autodesk Inventor, Fusion 360, AutoCAD
+        - 3D Printing (FDM Large-Format, Bambu Lab, SLA), CNC & Laser Cutting
+        - Blender, Adobe Photoshop (Color Pipeline), Technical Documentation
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2020
       items:
-        - Best robotic arm Scara - Awarded for creating an educational platform for a Digital Controller Design course.
+        - 1st Place - Best SCARA Robotic Arm (EIA University) - Awarded for creating an educational platform and C# control interface for Digital Controller Design.
