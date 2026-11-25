@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Custom 3D Printed NYC-Themed Chess Set
-description: Designing and manufacturing a highly customized resin 3D-printed chess set for an NYC construction firm.
+description: Designed and batch-manufactured 600+ magnetic resin 3D-printed architectural chess pieces for an NYC engineering firm's annual awards.
 date: 2024-04-01
 category: Custom Parts & Products
+tags: [Product Design, CAD & 3D Printing, Rapid Prototyping]
 published: true
 img: assets/img/projects/nyc-chess/p1_2.jpg
 ---
